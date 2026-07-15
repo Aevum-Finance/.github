@@ -52,5 +52,3 @@ spend. The tax is yours — you set the rate, and every unit stays your money.
 - 🧩 **Source** — the repositories below
 
 <sub>Created &amp; architected by <a href="https://rohitsolanki.in">Rohit Solanki</a>.</sub>
-<img width="1200" height="630" alt="product-banner-dark" src="https://github.com/user-attachments/assets/a04406ee-84da-4101-ac70-355f1c06687c" />
-<img width="1200" height="630" alt="product-banner-cream" src="https://github.com/user-attachments/assets/9047434b-1e25-477f-93db-02a8e2c095eb" />
