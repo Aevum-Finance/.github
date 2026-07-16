@@ -1,17 +1,13 @@
 <!--
-  ORG PROFILE README — draft for the Aevum-Finance GitHub org.
+  ORG PROFILE README — LIVE at github.com/Aevum-Finance (renders from profile/README.md).
+  Now edited from the local clone at Aevum/.github; commit + push to main to publish.
 
-  This is a DRAFT kept in the Enclave. To publish (all in the browser, no local clone):
-    1. Create a PUBLIC repo named exactly  .github  under the Aevum-Finance org.
-    2. Upload both banners into a  profile/  folder in that repo:
-         profile/product-banner-dark.png    (from branding/banners/product-banner-dark.png)
-         profile/product-banner-cream.png   (from branding/banners/product-banner-cream.png)
-    3. Create  profile/README.md  and paste everything BELOW this comment block.
-    4. github.com/Aevum-Finance renders it on the org landing page.
-
-  Image paths below are RELATIVE (images sit next to this README in profile/). If for any
-  reason they don't render on the org page, swap each src/srcset for the absolute raw URL:
+  Image paths are RELATIVE (banners sit next to this README in profile/). If they ever fail
+  to render on the org page, swap each src/srcset for the absolute raw URL:
     https://raw.githubusercontent.com/Aevum-Finance/.github/main/profile/product-banner-dark.png
+
+  The lead paragraph mirrors branding.json `description` (the meaning-led sales pitch); "How it
+  works" carries the mechanism. Keep it why-then-how, in sync with the app's brand copy.
 
   Guardrails honoured: currency-neutral, no "Founder" (role = Creator & Architect), no
   commercial/monetization framing, no hint of any future-selves / committee mechanism.
@@ -30,11 +26,12 @@
 
 ---
 
-**Aevum** turns everyday spending into future wealth. Every time you spend, it sets aside a
-small self-imposed tax into your savings — pre-funding the next version of that same expense.
-Set budgets on what matters, and Aevum handles the rest: it categorizes your transactions,
-reads your statements, forecasts the bills you forgot, and quietly compounds what you didn't
-spend. The tax is yours — you set the rate, and every unit stays your money.
+**Aevum** means an age — time that endures and accrues rather than runs out. Wealth is meant
+to grow the same way: gently, one ordinary step at a time. Most money apps run on pressure —
+budgets, streaks, the guilt when you slip; Aevum runs on a gentler idea. It turns everyday
+spending into savings through one small nudge you set yourself — a quiet push in the right
+direction that never becomes a shove. No pressure, no shame, no discipline required — just a
+calmer path to real wealth that grows while you live your life.
 
 ### How it works
 
