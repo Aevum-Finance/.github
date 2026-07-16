@@ -33,6 +33,28 @@ spending into savings through one small nudge you set yourself — a quiet push 
 direction that never becomes a shove. No pressure, no shame, no discipline required — just a
 calmer path to real wealth that grows while you live your life.
 
+### The idea
+
+Here's the whole idea, plainly — and why it isn't what it sounds like.
+
+Most of what leaves your account leaves by habit: small, forgettable expenses that never quite
+turn into savings. Aevum changes that without asking you to budget harder or spend less. Every
+time you record an expense, it adds a small self-imposed "tax" on top — at a rate you choose,
+category by category — and moves that amount into a savings account you own. It isn't a fee and
+it isn't lost. It's your money, set aside for you, building a provision for the next expense of
+the same kind: spend on dining today and you're quietly funding future dining; spend on travel,
+future travel.
+
+Set a budget on the things that matter, and going over adds a little more — not a punishment,
+just a sharper nudge you asked for. You stay in control the whole way: you set every rate, you
+can change or pause them anytime, and you can see exactly where each unit went.
+
+Around that core, Aevum does the quiet work of a good assistant — categorizing your
+transactions, reading your statements, forecasting the recurring bills you tend to forget, and
+turning it all into clear analytics, while a weekly ledger tallies what you've set aside. No
+lectures, no alarms, no shame for spending. Just a steady, private habit that turns today's
+ordinary purchases into tomorrow's security.
+
 ### How it works
 
 - **Spend → self-tax → set aside.** A small consumption tax on qualifying spend moves into a
