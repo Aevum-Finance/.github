@@ -27,11 +27,22 @@
 ---
 
 **Aevum** means an age — time that endures and accrues rather than runs out. Wealth is meant
-to grow the same way: gently, one ordinary step at a time. Most money apps run on pressure —
-budgets, streaks, the guilt when you slip; Aevum runs on a gentler idea. It turns everyday
-spending into savings through one small nudge you set yourself — a quiet push in the right
-direction that never becomes a shove. No pressure, no shame, no discipline required — just a
-calmer path to real wealth that grows while you live your life.
+to grow the same way: gently, one ordinary step at a time. Most money apps are built on fear —
+budgets, streaks, the guilt when you slip; they're very good at making you anxious and not very
+good at making you wealthier. Aevum starts from the opposite premise: a small nudge you set
+yourself turns everyday spending into savings — a quiet push in the right direction that never
+becomes a shove. No pressure, no shame, no discipline required — just a calmer path to real
+wealth that grows while you live your life.
+
+### The name
+
+Aevum is Latin for an age — an enduring duration; time that accrues rather than runs out. In
+older philosophy it named the middle term between fleeting time and eternity: the duration of
+things that persist. It is the right word for money, the most patient thing you own.
+
+Written another way, एवं is Sanskrit for "and" — together with. That is the other half of the
+promise: this isn't a tool for people who already speak the language of finance. It's for
+everyone else.
 
 ### The idea
 
