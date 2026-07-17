@@ -1,0 +1,40 @@
+name: brand-dispatch
+
+# Public brand SoT → consumers. When branding.json (or a product banner) changes on
+# main, notify the app repos so they pull the new copy and redeploy. This is the FAST
+# path; every consumer also runs a weekly drift-check cron that self-heals a missed
+# dispatch, so a dropped event is never fatal.
+#
+# Scope: only the two same-org app repos are dispatched, so a single fine-grained PAT
+# (scoped to Aevum-Finance) suffices. The personal site consumes the SoT via its own
+# weekly cron (cross-org — not worth a second token for a non-urgent surface).
+#
+# Requires: repo secret BRAND_DISPATCH_PAT — a fine-grained PAT scoped to the
+# Aevum-Finance org, repos aevum-api + aevum-web, permission "Contents: Read and write"
+# (the repository-dispatch API needs Contents write).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - branding.json
+      - profile/product-banner-*.png
+  workflow_dispatch: {} # allow a manual re-fire
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo:
+          - Aevum-Finance/aevum-api
+          - Aevum-Finance/aevum-web
+    steps:
+      - name: Fire repository_dispatch (brand-updated) → ${{ matrix.repo }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer ${{ secrets.BRAND_DISPATCH_PAT }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ matrix.repo }}/dispatches" \
+            -d '{"event_type":"brand-updated"}'
