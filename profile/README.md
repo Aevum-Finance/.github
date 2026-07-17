@@ -6,10 +6,10 @@
   to render on the org page, swap each src/srcset for the absolute raw URL:
     https://raw.githubusercontent.com/Aevum-Finance/.github/main/profile/product-banner-dark.png
 
-  ⭐ CANONICAL BRAND SoT: ../branding.json (this repo's root). It is the single public source
+  CANONICAL BRAND SoT: ../branding.json (this repo's root). It is the single public source
   the app (aevum-web / aevum-api) and the personal site consume. The block between the
-  <!-- BRAND:start --> / <!-- BRAND:end --> markers below (one_liner · tagline · description ·
-  story.name · description_long) is GENERATED FROM branding.json — edit the JSON, not the block
+  BRAND:start and BRAND:end markers below (one_liner, tagline, description, story.name,
+  description_long) is GENERATED FROM branding.json — edit the JSON, not the block
   (aevum-marketing's build_brand.py regenerates + publishes both here). "How it works" + Explore
   are hand-authored. Keep it why-then-how.
 
@@ -21,14 +21,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="product-banner-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="product-banner-cream.png">
-    <img alt="Aevum — Future begins today." src="product-banner-cream.png" width="100%">
+    <img alt="Aevum — Turn everyday spending into future savings, automatically. Future begins today." src="product-banner-cream.png" width="100%">
   </picture>
 </div>
 
-<!-- BRAND:start — generated from ../branding.json (edit the JSON, not this block) -->
-<h3 align="center">Turn everyday spending into future savings — automatically.</h3>
-<p align="center"><em>Future begins today.</em></p>
-
+<!-- BRAND:start — generated from ../branding.json (edit the JSON, not this block). one_liner + tagline are omitted here: the product banner above already renders both. -->
 ---
 
 **Aevum** means an age — time that endures and accrues rather than runs out. Wealth is meant
@@ -84,7 +81,8 @@ ordinary purchases into tomorrow's security.
 
 ### Explore
 
-- 📖 **Case study** — [rohitsolanki.in/aevum](https://rohitsolanki.in/aevum)
+- 🚀 **Live app** — [www.aevumfinance.com](https://www.aevumfinance.com)
+- 📖 **Case study** — [www.rohitsolanki.in/aevum](https://www.rohitsolanki.in/aevum)
 - 🧩 **Source** — the repositories below
 
 <sub>Created &amp; architected by <a href="https://rohitsolanki.in">Rohit Solanki</a>.</sub>
