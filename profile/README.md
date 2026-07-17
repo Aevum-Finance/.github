@@ -6,8 +6,12 @@
   to render on the org page, swap each src/srcset for the absolute raw URL:
     https://raw.githubusercontent.com/Aevum-Finance/.github/main/profile/product-banner-dark.png
 
-  The lead paragraph mirrors branding.json `description` (the meaning-led sales pitch); "How it
-  works" carries the mechanism. Keep it why-then-how, in sync with the app's brand copy.
+  ⭐ CANONICAL BRAND SoT: ../branding.json (this repo's root). It is the single public source
+  the app (aevum-web / aevum-api) and the personal site consume. The block between the
+  <!-- BRAND:start --> / <!-- BRAND:end --> markers below (one_liner · tagline · description ·
+  story.name · description_long) is GENERATED FROM branding.json — edit the JSON, not the block
+  (aevum-marketing's build_brand.py regenerates + publishes both here). "How it works" + Explore
+  are hand-authored. Keep it why-then-how.
 
   Guardrails honoured: currency-neutral, no "Founder" (role = Creator & Architect), no
   commercial/monetization framing, no hint of any future-selves / committee mechanism.
@@ -21,6 +25,7 @@
   </picture>
 </div>
 
+<!-- BRAND:start — generated from ../branding.json (edit the JSON, not this block) -->
 <h3 align="center">Turn everyday spending into future savings — automatically.</h3>
 <p align="center"><em>Future begins today.</em></p>
 
@@ -65,6 +70,7 @@ transactions, reading your statements, forecasting the recurring bills you tend 
 turning it all into clear analytics, while a weekly ledger tallies what you've set aside. No
 lectures, no alarms, no shame for spending. Just a steady, private habit that turns today's
 ordinary purchases into tomorrow's security.
+<!-- BRAND:end -->
 
 ### How it works
 
