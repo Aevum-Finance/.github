@@ -6,15 +6,17 @@
   to render on the org page, swap each src/srcset for the absolute raw URL:
     https://raw.githubusercontent.com/Aevum-Finance/.github/main/profile/product-banner-dark.png
 
-  CANONICAL BRAND SoT: ../branding.json (this repo's root). It is the single public source
-  the app (aevum-web / aevum-api) and the personal site consume. The block between the
+  BRAND SoT: the private aevum-brand repo. ../branding.json here is a received MIRROR (kept
+  for a public read path), pushed by that repo's dispatcher — edit it there, never here. The
+  banners beside this file are pushed the same way. The block between the
   BRAND:start and BRAND:end markers below (one_liner, tagline, description, story.name,
-  description_long) is GENERATED FROM branding.json — edit the JSON, not the block
-  (aevum-marketing's build_brand.py regenerates + publishes both here). "How it works" + Explore
-  are hand-authored. Keep it why-then-how.
+  description_long) is GENERATED from branding.json — edit the JSON in aevum-brand, not this
+  block (its build_brand.py regenerates and its dispatcher publishes here). "How it works" +
+  Explore are hand-authored. Keep it why-then-how.
 
-  Guardrails honoured: currency-neutral, no "Founder" (role = Creator & Architect), no
-  commercial/monetization framing, no hint of any future-selves / committee mechanism.
+  Guardrails: this page is a PUBLIC surface. Before editing, read the brand guardrails in
+  the private brand repo (aevum-brand) — do not restate them here. Enumerating a constraint
+  names the thing it protects, and this file is world-readable.
 -->
 
 <div align="center">
